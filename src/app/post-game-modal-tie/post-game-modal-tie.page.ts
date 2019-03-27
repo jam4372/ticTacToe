@@ -13,6 +13,7 @@ export class PostGameModalTiePage implements OnInit {
   ngOnInit() {
   }
 
+  // close modal for tie state
   dismiss() {
     this.modalController.dismiss();
   }

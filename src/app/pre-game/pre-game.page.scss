@@ -48,7 +48,7 @@ svg {
 
     @media (min-width: 600px) {
         padding-top: 0px;
-        width:350px;
+        width: 350px;
         margin-left: 60px; 
         margin-top: -160px;
     }
@@ -86,6 +86,10 @@ svg {
         margin-top: 20%;
         padding-left: 50px !important;
     }
+}
+
+ion-button {
+    font-family: 'Montserrat', sans-serif;
 }
 
 
