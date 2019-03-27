@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+ion-content {
+    --background: #C1DAD6 !important;
+}
+
+  
+    @keyframes pulse { 
+        25%  {transform: scale(0.9);}
+        75%  {transform: scale(1.1);}
+      }
+      svg {
+        animation: pulse 0.5s ease-in infinite;
+        width: 80%;
+        margin-top: 20%;
+        margin-left: 10%;
+      }
