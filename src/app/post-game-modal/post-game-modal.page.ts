@@ -13,6 +13,7 @@ export class PostGameModalPage implements OnInit {
   ngOnInit() {
   }
 
+  // close win state modal
   dismiss() {
     this.modalController.dismiss();
   }
