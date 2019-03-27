@@ -18,3 +18,14 @@ Allow the user to start a new game
 
 Framework utilized is the Ionic Framework. To run have Ionic installed, open master file and 
 run ionic serve and view in mobile inspector. Optimized for phone and tablet. 
+
+Assumptions
+
+The challenge specifications stated 2 players must be able to take turns playing. In this sense
+I assumed the order in which they would play could be left to the players. X will always go first
+so if the order wants to be switched it must be done physically. As well I assumed single games 
+without a running tally of won games would be sufficient. Due to this each game is played and a 
+winner or tie is declared in the end and from this the board is cleared and the players can choose
+to begin a new game. Additionally in terms of allowing users to begin a new game I assumed it to be 
+equivalent to clearing the board and starting fresh. This is accomplished through a New Game button 
+on the main game page.
